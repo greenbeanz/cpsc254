@@ -1,0 +1,53 @@
+git notes:
+28 April 2014
+
+used for version control
+
+on your own or in a group
+
+repository
+
+windows:  git bash
+
+google git getting started
+
+two steps for upddating our own repository:
+1.	update your local repository
+		git add <filename>
+		git commit -m "commit message or comment"
+
+2.	changing a file, not adding new files
+		git -am "commit message"
+		
+
+###
+More notes:
+	git push sends information to git hup
+	git fetch 
+	
+git init initialized repository
+
+git status
+
+git log
+
+git config --global user.name "queuestick"
+git config --global user.email "greenerz90@csu.fullerton.edu"
+
+####
+To connect to github repository from my machine:
+git remote add origin https://github.com/queuestick/cpsc254
+
+
+
+git repository from another user:
+git clone https://github.com/user.name/project.name
+
+(diff shows the differences between my repository and the one on the server)
+git diff master origin/master
+
+
+(merges the differences from each file)
+git merge origin/master
+
+YOU MUST COMMIT TO LOCAL DIRECTORYY FIRST BEFORE SUBMITTING THE CHANGE TO GITHUB
